@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin Sign up - ATGS</title>
+       
+		<link rel='stylesheet' type='text/css' href='css sources/atgs_sec1.css'>
+			<link rel='stylesheet' type='text/css' href='css sources/main.css'>
+    </head>
+    <body background-color="#56ad2f">
+        <div id='header1'>
+			<h1><center> ADMIN REGISTRATION FORM</center></h1></div>
+			<center>
+            <span style='background-color:black;color:white;font-size:20px;'>
+			Please Enter Your Details For Registering Yourself As An Administrator
+			</span><br><br>
+			<span id='formstr' style='background-color:white; border:4px solid
+			black;position:absolute;
+			padding:10px;left:400px;top:300;'>
+            <form name="Alogin" method="post"
+			action='php sources/admin_valid.php'>
+				<table width="600px" cellpadding="20px"><tr><td>Name
+				</td><td>
+				<input type="text" name="name"value=""></td></tr>
+				<tr><td>Username:
+				</td><td>
+				<input type="text" name="usrname"value=""></td></tr>
+				<tr><td>Password:
+				</td><td>
+				<input type="password" name="newpassword"value=""></td><br>
+				</tr><tr><td>
+				ConfirmPassword:</td><td>
+				<input type="password" name="cfmpassword"value=""></td></tr>
+				<tr><td>
+				Branch:
+				</td><td>
+				<input type="text" name="branch" id="branch" 
+				value="">! Max 3 size.</td></tr><tr><td>
+				Email Id:
+				</td><td>
+				<input type="text" name="eml"value=""></td></tr>
+				<tr><td>Designation:
+				</td><td>
+				<input type="text" name="desg"value=""></td></tr>
+				<tr><td colspan="2"><center>
+				<input type='submit' name='verify' id='verify' value='Register'>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type='submit' name='update' id='update' value='modify' >
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type='submit' name='list' id='list' value='showdata' >
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type='submit' name='clear' id='clear' value='Reset'>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</center></td></tr></table>
+            </form>
+			</span>
+			<center>
+			<span style=';position:relative;top:610px;;
+			font-family:monotype corsiva; font-size:50px;'>
+			<b>AUTOMATED TIMETABLE GENERATION</b> SYSTEM</span>
+			</center>
+			</center>
+    </body>
+</html>

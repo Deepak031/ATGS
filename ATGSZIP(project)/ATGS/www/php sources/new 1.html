@@ -1,0 +1,63 @@
+<html>
+	<HEAD>
+		<title>form validation</title>
+		<script language="javascript">
+			function register()
+			{
+			var a = document.getElementById("usrid").value;
+			var b = document.getElementById("usrpw").value;
+			var c = document.getElementById("cfmpw").value;
+				if(b==c)
+				{
+					alert("You are Signed Up Sucessfully");
+				}
+				else
+				{
+					alert("Password Not Confirmed");
+				}
+			}
+			function login()
+			{			
+			var d = document.getElementById("usrid").value;
+			var e= document.getElementById("usrpw").value;
+			var f = document.getElementById("usrid2").value;
+			var g = document.getElementById("usrpw2").value;
+				if(f==d && g==e)
+				{
+					alert("LOGGED IN SUCESSFULLY");
+					
+				}
+				if(f!=d || g!=e)
+				{
+					alert("! WRONG user id or password ");
+				}
+			}			
+		</script>
+	</head>
+	<body style="background-image:url('images sources/d7.jpg');background-repeat:no-repeat;background-size:100% 100%;">
+		<center>
+		<h2>SIGN UP</h2>
+			<form name="form1" method="post">
+				user id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" name="usrid" id="usrid" value=""><br><br>
+				password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="password" name="usrpw" id="usrpw" value=""><br><br>
+				confirm password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="password" name="cfmpw" id="cfmpw" value=""><br><br>
+				<input type="button" name="signup" value="Sign Up" 
+				onclick="register()">
+			</form>
+			<br><br><br><br>
+			<hr size="10">
+			<h2>SIGN IN</h2>
+			<form name="form2">
+				user id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" name="usrid2" id="usrid2" value=""><br><br>
+				password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="password" name="usrpw2" id="usrpw2" value=""><br><br>
+				<input type="button" name="signup" value="Sign In" 
+				onclick="login()">
+			</form>
+		</center>
+	</body>
+</html>

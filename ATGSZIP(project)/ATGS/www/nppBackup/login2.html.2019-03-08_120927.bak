@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>login page</title>
+		<style>
+			body
+			{
+				width:13;
+				height:1095;
+				left:0;
+				top:100;
+				background-image:url("images sources/d6.jpg");
+			}
+			#frm1
+			{
+				position:absolute;
+				left:900px;
+				top:30;
+				height:200;
+				width:300;
+				background-color:transparent;
+				transparency:100%;
+				padding:20px;
+				text-size:40px;
+			}
+			h2
+			{
+			height:30;
+			color:Blue;
+			}
+			form{
+			text-size:40px;
+			}
+	
+		</style>
+	</head>
+	<body style="background-image:url('images sources/d7.jpg');background-repeat:no-repeat;background-size:100% 100%;">
+			<span id="frm1" >
+			<br><br><br><br><hr><h2>Login admin account</h2>
+					<form name="loginform" action="" method="post">
+						Username :&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="user name" name="user name" id="user name"><br><br>
+						Password :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="password" name="pwd" id="pwd" value=""><br><br>
+						<input type="submit" name="login_btn" id="login_btn" value="Login">
+					</form><hr>
+			</span>	
+				
+	</body>
+</html>

@@ -1,0 +1,248 @@
+<html>
+	<head>
+		<title>AUTOMATED TIME TABLE GENERATION SYSTEM - HOME
+		</title>
+		<script language="javascript">
+					// Get the modal
+					var modal = document.getElementById('myModal');
+
+					// Get the button that opens the modal
+					var addteacherBtn = document.getElementById("teachermanual");
+					var heading = document.getElementById("popupHead");
+					var facultyForm = document.getElementById("addTeacherForm");
+					// Get the <span> element that closes the modal
+					var span = document.getElementsByClassName("close")[0];
+
+					// When the user clicks the button, open the modal
+
+					addteacherBtn.onclick = function () {
+						modal.style.display = "block";
+						//heading.innerHTML = "Faculty Login";
+						facultyForm.style.display = "block";
+						//adminForm.style.display = "none";
+
+
+					}
+
+					// When the user clicks on <span> (x), close the modal
+					span.onclick = function () {
+						modal.style.display = "none";
+						//adminForm.style.display = "none";
+						facultyForm.style.display = "none";
+
+					}
+
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function (event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}
+					function deleteHandlers() {
+						var table = document.getElementById("teacherstable");
+						var rows = table.getElementsByTagName("tr");
+						for (i = 0; i < rows.length; i++) {
+							var currentRow = table.rows[i];
+							//var b = currentRow.getElementsByTagName("td")[0];
+							var createDeleteHandler =
+								function (row) {
+									return function () {
+										var cell = row.getElementsByTagName("td")[0];
+										var id = cell.innerHTML;
+										var x;
+										if (confirm("Are You Sure?") == true) {
+											window.location.href = "deleteteacher.php?name=" + id;
+
+										}
+
+									};
+								};
+							currentRow.cells[6].onclick = createDeleteHandler(currentRow);
+						}
+					}
+				</script>
+		<style>
+			#age
+		{
+			width:100;
+			height:30;
+			align:center;
+		}
+		#tchr_frm
+		{
+			padding:20px;
+			position:absolute;
+			left:400px;
+			top:5px;
+			border:4px solid gray;
+			width:480px;
+			height:600px;
+			border-style:metallic gray;
+			font-weight:bolder;
+			background:#solid blue;
+			z-index:10;
+		}
+		h1
+		{
+			font-family:algerian;
+			font-weight:bolder;
+		}
+		.body-container #tchr_frm 
+		{
+			position:absolute;
+			top:25px;
+		}
+		#tchrfrm #tchfrm
+		{
+			cellpadding:10px;
+			cellspacing:5px;
+		}
+		
+		table #teacherstable {
+						margin-top: 10px;
+						font-family: arial, sans-serif;
+						border-collapse: collapse;
+						margin-left: 30px;
+						width: 90%;
+					}
+
+					#teacherstable td, th {
+						border: 1px solid #dddddd;
+						text-align: left;
+						padding: 8px;
+					}
+
+					#teacherstable tr:nth-child(even) {
+						background-color: #dddddd;
+					}
+		table.showfaculty
+		{
+			background:transparant;
+			position:absolute;
+			top:600px;
+		}
+		</style>
+		<link rel='stylesheet' type='text/css' href='css sources/main.css'>
+	</head>
+	<body>
+		<div id="logo">
+			<img src="images sources/ATGS LOGO 3.png" height="150px" width="250" alt="logo not found">
+		</div>
+		<div class="topnav">
+			<a href="#">About us</a>
+			<a href="#">Print Timetable</a>
+			<a href="#">Guide</a>
+			<a href="#">Timetable Collections</a>
+			<a href="#">Forget Password</a>
+		</div>
+		<div class="container-header">
+			AUTOMATED TIMETABLE GENERATION SYSTEM
+		</div>
+		<div class="head-container">
+		</div>
+		<div class="body-container">
+			<span id="tchr_frm" style="height:530px; width:800px;">
+							<h2><b>Faculty Registration Form</b></h2>
+								<form name="frm4" method="post" action="facsave.php">
+									<table id="tchfrm" cellpadding="10px" cellspacing="5px"><tr><td>
+									Name:</td><td>
+									<input type="text" name="name" id="name"></br></br>
+										</td><td>
+									ShortForm:</td><td>
+									<input type="text" name="sf" id="sf"><br></br>
+										</td></tr><tr><td>
+									Email id:</td><td>
+									<input type="text" name="email_id" id="email_id"><br></br>
+										</td><td>
+									Mobile No : </td><td>
+									<input type="text" name="mobile_no" id="mobile_no"></br></br>
+											</td></tr><tr><td>
+									Age: </td><td>
+									<select name="age" id="age">
+									<option value="18">18</option>
+									<option value="19">19</option>
+									<option value="20">20</option>
+									<option value="21">21</option>
+									<option value="22">22</option>
+									<option value="23">23</option>
+									<option value="24">24</option>
+									<option value="25">25</option>
+									<option value="26">26</option>
+									<option value="27">27</option>
+									<option value="28">28</option>
+									<option value="29">29</option>
+									<option value="30">30</option>
+									<option value="31">31</option>
+									<option value="32">32</option>
+									<option value="33">33</option>
+									<option value="34">34</option>
+									<option value="35">35</option>
+									<option value="36">36</option>
+									<option value="37">37</option>
+									<option value="38">38</option>
+									<option value="39">39</option>
+									<option value="40">40</option>
+									</select></td><td>
+									Gender:</td><td>
+									<input type="radio" name="gndr" id="gndr" value="Male">Male
+									<input Type="Radio" name="gndr" id="gndr" value="Female">Female
+									</td></tr><tr><td>
+									Faculty Experience:</td><td>  
+									<input type="text" name="exp" id="exp" placeholder="In Years"></td><td>
+									Faculty Qualification:  </td><td>
+									<input type="text" name="que" id="que"></td></tr><tr><td>
+									Subjects:</td><td>
+									<textarea type="text" name="sub1" id="sub1" rows="4" cols="14" value="" placeholder="Enter Subjects"></textarea></td><td>
+										<br><input type="submit" name="addtc" id="addtc" value="Save">
+										</td></tr>
+								</table>
+								</form>
+								
+				</span>
+		</div>
+		<div class="showfaculty">	
+					<center>
+					<table id=teacherstable>
+						<caption><strong>Teacher's Information </strong></caption>
+						<tr>
+							<th width="40">Teacher Id</th>
+							<th width="200">Name</th>
+							<th width="50">ShortForm</th>
+							<th width="350">Email Id</th>
+							<th width="190">Mobile No.</th>
+							<th width="40">Age</th>
+							<th width="90">Gender</th>
+							<th width="40">Experiance</th>
+							<th width="200">Qualification</th>
+							<th width="400">Subjects</th>
+							<th width="100">Action</th>
+						</tr>
+						<tbody>
+						<?php
+						include 'connection.php';
+						$q = mysqli_query(mysqli_connect("localhost", "root", "", "atgs"),
+							"SELECT * FROM teachers ORDER BY faculty_Id ASC");
+						while ($row =@mysqli_fetch_assoc($q)) {
+							echo "<tr><td>{$row['faculty_Id']}</td>
+									<td>{$row['Name']}</td>
+									<td>{$row['alias']}</td>
+									<td>{$row['Email']}</td>
+									<td>{$row['Mobile_Number.']}</td>
+									<td>{$row['Age']}</td>
+									<td>{$row['Gender']}</td>
+									<td>{$row['Experiance']}</td>
+									<td>{$row['Qualification']}</td>
+									<td>{$row['Subjects']}</td>
+								   <td>
+									<button class='btn-danger'>Delete</button></td>
+									</tr>\n";
+						}
+						echo "<script>deleteHandlers();</script>";
+						
+						?>
+					</tbody>
+				</table>
+				</center>	
+		</div>
+	</body>
+</html>
