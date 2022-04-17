@@ -34,8 +34,9 @@ for ($i = 0; $i < 6; $i++) {
 }
 if ($q) {
     $message = "Faculty Added ";
-    echo "<script type='text/javascript'>alert('$message');</script>";
     header("Location:addteachers.php");
+    echo "<script type='text/javascript'>alert('$message');</script>";
+    // header("Location:addteachers.php");
 } else {
     $message = "No Response\\nTry again.";
     echo "<script type='text/javascript'>alert('$message');</script>";

@@ -120,7 +120,6 @@
 						$sa=$_REQUEST['sa'];
 						$desg=$_REQUEST['desg'];
 					}	
-						
 					$query="insert into admin_login values('$name','$usr','$pwd','$eml','$sq','$sa','$desg')";
 					$valid="SELECT username FROM admin_login WHERE(username=='$usr');";
 					if($usr!=$valid&&$pwd==$cpwd)

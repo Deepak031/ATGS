@@ -9145,3 +9145,1286 @@
 [0412/225119:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
 [0412/225119:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
 [0412/225119:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+- 23:40:08.235 INFO: --------------------------------------------------------
+- 23:40:08.266 INFO: Started application
+- 23:40:08.266 INFO: Logging to: F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log
+- 23:40:08.266 INFO: Log level = DEBUG4
+- 23:40:08.266 INFO: Starting Mongoose 3.9c web server
+- 23:40:08.266 INFO: WWW directory: F:\PRoject\ATGS\ATGSZIP(project)\ATGS\www
+- 23:40:08.266 INFO: Index files: index.html,index.php
+- 23:40:08.266 INFO: CGI interpreter: F:\PRoject\ATGS\ATGSZIP(project)\ATGS\php\php-cgi.exe
+- 23:40:08.266 INFO: CGI pattern: **.php$
+- 23:40:08.266 INFO: Hide files patterns: 
+- 23:40:08.266 INFO: CGI environment variables set: TMP=C:\Users\Yesh\AppData\Local\Temp\,TEMP=C:\Users\Yesh\AppData\Local\Temp\,TMPDIR=C:\Users\Yesh\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 23:40:08.282 INFO: Web server url: http://127.0.0.1:64409/
+- 23:40:08.282 INFO: remote_debugging_port = 60331
+- 23:40:09.438 DEBUG: Command line string for the browser process: "F:\PRoject\ATGS\ATGSZIP(project)\ATGS\ATGS.exe" --no-sandbox --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" --remote-debugging-port=60331
+- 23:40:09.000 DEBUG: Command line string for the gpu-process process: "F:\PRoject\ATGS\ATGSZIP(project)\ATGS\ATGS.exe" --type=gpu-process --channel="13012.0.609011707\273966120" --no-sandbox --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8587 --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" /prefetch:822062411
+- 23:40:10.657 DEBUG: App::OnContextInitialized()
+- 23:40:10.657 DEBUG: Window max width/height = 1286/720
+- 23:40:10.657 DEBUG: GetBrowserWindow(): not found, hwnd = 590246
+- 23:40:10.657 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:40:10.657 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:40:10.657 DEBUG: StoreBrowserWindow(): hwnd = 590246
+- 23:40:10.922 DEBUG: ClientHandler::OnAfterCreated()
+- 23:40:10.922 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:40:10.063 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:40:10.000 DEBUG: Command line string for the renderer process: "F:\PRoject\ATGS\ATGSZIP(project)\ATGS\ATGS.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="13012.1.1581233428\559000632" /prefetch:673131151
+- 23:40:11.547 DEBUG: OnBrowserCreated()
+- 23:40:12.047 INFO: GET 200 /
+- 23:40:12.110 INFO: GET 200 /css sources/main.css
+- 23:40:12.110 INFO: GET 200 /images sources/ATGS LOGO 3.png
+- 23:40:12.125 INFO: GET 200 /images sources/theme 2.jpg
+- 23:40:12.125 DEBUG: OnContextCreated()
+- 23:40:12.204 DEBUG: OnContextCreated()
+- 23:40:12.297 INFO: GET 404 /css sources/images sources/bg1.png
+- 23:40:12.328 INFO: GET 404 /css sources/images sources/bg1.jpg
+- 23:40:13.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64409/
+[0414/234013:WARNING:browser_accessibility_manager_win.cc(87)] Not firing AX event because of no delegate
+[0414/234013:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+- 23:40:32.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:64409/
+- 23:40:35.375 DEBUG: OnContextCreated()
+- 23:40:35.453 INFO: POST 200 /adminFormvalidation.php
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(87)] Not firing AX event because of no delegate
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+- 23:44:20.688 DEBUG: OnContextCreated()
+- 23:44:20.782 INFO: GET 200 /css sources/atgs_sec1.css
+- 23:44:20.782 INFO: GET 200 /images sources/alloc.png
+- 23:44:20.782 INFO: GET 200 /images sources/teacher.png
+- 23:44:20.782 INFO: GET 200 /images sources/addsub.png
+- 23:44:20.782 INFO: GET 200 /images sources/crm.png
+- 23:44:20.782 INFO: GET 200 /images sources/home.png
+- 23:44:20.782 INFO: GET 200 /adminpanel.php
+- 23:44:20.704 DEBUG: OnContextCreated()
+- 23:44:20.813 INFO: GET 200 /images sources/addacc.png
+- 23:44:20.813 INFO: GET 200 /images sources/manage-account.jpg
+- 23:44:20.813 INFO: GET 200 /images sources/ttlogo.png
+- 23:44:20.813 INFO: GET 200 /images sources/logout.png
+- 23:44:20.813 INFO: GET 200 /images sources/Generate.png
+- 23:44:20.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64409/adminpanel.php
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(87)] Not firing AX event because of no delegate
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234420:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+- 23:44:24.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:64409/adminpanel.php
+- 23:44:24.016 DEBUG: OnContextCreated()
+- 23:44:24.016 DEBUG: OnContextCreated()
+- 23:44:24.094 INFO: GET 200 /index.php
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(87)] Not firing AX event because of no delegate
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234424:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+- 23:44:24.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64409/index.php
+- 23:44:33.110 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:64409/index.php
+- 23:44:35.235 DEBUG: OnContextCreated()
+- 23:44:35.328 INFO: POST 200 /adminFormvalidation.php
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(87)] Not firing AX event because of no delegate
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+- 23:44:39.235 DEBUG: OnContextCreated()
+- 23:44:39.250 DEBUG: OnContextCreated()
+- 23:44:39.328 INFO: GET 200 /adminpanel.php
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(87)] Not firing AX event because of no delegate
+[0414/234439:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+- 23:44:39.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64409/adminpanel.php
+- 23:45:03.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:64409/adminpanel.php
+- 23:45:03.782 DEBUG: OnContextCreated()
+- 23:45:03.875 INFO: GET 200 /Registration admin.php
+- 23:45:03.797 DEBUG: OnContextCreated()
+- 23:45:03.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64409/Registration%20admin.php
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(87)] Not firing AX event because of no delegate
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234503:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+- 23:45:56.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:64409/Registration%20admin.php
+- 23:45:58.094 DEBUG: OnContextCreated()
+- 23:45:58.188 INFO: POST 200 /Registration admin.php
+- 23:45:58.110 DEBUG: OnContextCreated()
+- 23:45:58.235 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64409/Registration%20admin.php
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(87)] Not firing AX event because of no delegate
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/234558:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+- 23:52:20.032 DEBUG: F5 pressed, reloading page
+- 23:52:20.407 DEBUG: F5 pressed, reloading page
+- 23:52:21.594 DEBUG: F5 pressed, reloading page
+- 23:52:21.766 DEBUG: F5 pressed, reloading page
+- 23:52:21.938 DEBUG: F5 pressed, reloading page
+- 23:52:21.125 DEBUG: F5 pressed, reloading page
+- 23:52:23.157 DEBUG: F5 pressed, reloading page
+- 23:52:24.828 DEBUG: F5 pressed, reloading page
+- 23:53:22.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:64409/Registration%20admin.php
+- 23:53:24.704 DEBUG: OnContextCreated()
+- 23:53:24.782 INFO: POST 200 /Registration admin.php
+- 23:53:24.704 DEBUG: OnContextCreated()
+- 23:53:24.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64409/Registration%20admin.php
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(87)] Not firing AX event because of no delegate
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235324:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+- 23:55:00.110 DEBUG: F5 pressed, reloading page
+- 23:55:07.407 DEBUG: WM_DESTROY
+- 23:55:07.407 DEBUG: RemoveBrowserWindow(): hwnd = 590246
+- 23:55:07.407 INFO: Stopping Mongoose web server
+- 23:55:07.407 DEBUG: Mongoose webserver stopped immediately
+- 23:55:07.422 DEBUG: OnBeforeClose() hwnd=263266
+- 23:55:07.422 DEBUG: RemoveBrowserWindow(): hwnd = 263266
+- 23:55:07.422 DEBUG: GetBrowserWindow(): not found, hwnd = 263266
+- 23:55:07.422 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:55:07.422 DEBUG: Calling CefQuitMessageLoop()
+- 23:55:07.422 DEBUG: OnBrowserDestroyed()
+- 23:55:07.719 INFO: Ended application
+- 23:55:07.719 INFO: --------------------------------------------------------
+- 23:55:13.125 INFO: --------------------------------------------------------
+- 23:55:13.125 INFO: Started application
+- 23:55:13.125 INFO: Logging to: F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log
+- 23:55:13.125 INFO: Log level = DEBUG4
+- 23:55:13.125 INFO: Starting Mongoose 3.9c web server
+- 23:55:13.125 INFO: WWW directory: F:\PRoject\ATGS\ATGSZIP(project)\ATGS\www
+- 23:55:13.125 INFO: Index files: index.html,index.php
+- 23:55:13.125 INFO: CGI interpreter: F:\PRoject\ATGS\ATGSZIP(project)\ATGS\php\php-cgi.exe
+- 23:55:13.125 INFO: CGI pattern: **.php$
+- 23:55:13.125 INFO: Hide files patterns: 
+- 23:55:13.125 INFO: CGI environment variables set: TMP=C:\Users\Yesh\AppData\Local\Temp\,TEMP=C:\Users\Yesh\AppData\Local\Temp\,TMPDIR=C:\Users\Yesh\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 23:55:13.140 INFO: Web server url: http://127.0.0.1:51558/
+- 23:55:13.140 INFO: remote_debugging_port = 56716
+- 23:55:13.140 DEBUG: Command line string for the browser process: "F:\PRoject\ATGS\ATGSZIP(project)\ATGS\ATGS.exe" --no-sandbox --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" --remote-debugging-port=56716
+- 23:55:13.000 DEBUG: Command line string for the gpu-process process: "F:\PRoject\ATGS\ATGSZIP(project)\ATGS\ATGS.exe" --type=gpu-process --channel="5728.0.1610307093\515776674" --no-sandbox --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8587 --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" /prefetch:822062411
+- 23:55:13.250 DEBUG: App::OnContextInitialized()
+- 23:55:13.250 DEBUG: Window max width/height = 1286/720
+- 23:55:13.250 DEBUG: GetBrowserWindow(): not found, hwnd = 328840
+- 23:55:13.250 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:55:13.250 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:55:13.250 DEBUG: StoreBrowserWindow(): hwnd = 328840
+- 23:55:13.296 DEBUG: ClientHandler::OnAfterCreated()
+- 23:55:13.296 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:55:13.328 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:55:13.000 DEBUG: Command line string for the renderer process: "F:\PRoject\ATGS\ATGSZIP(project)\ATGS\ATGS.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="5728.1.1285372100\1770418724" /prefetch:673131151
+- 23:55:13.031 DEBUG: OnBrowserCreated()
+- 23:55:13.515 INFO: GET 200 /css sources/main.css
+- 23:55:13.515 INFO: GET 200 /images sources/ATGS LOGO 3.png
+- 23:55:13.515 INFO: GET 200 /images sources/theme 2.jpg
+- 23:55:13.156 DEBUG: OnContextCreated()
+- 23:55:13.531 INFO: GET 200 /
+- 23:55:13.172 DEBUG: OnContextCreated()
+- 23:55:13.562 INFO: GET 404 /css sources/images sources/bg1.png
+- 23:55:13.562 INFO: GET 404 /css sources/images sources/bg1.jpg
+- 23:55:13.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51558/
+[0414/235513:WARNING:browser_accessibility_manager_win.cc(87)] Not firing AX event because of no delegate
+[0414/235513:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+- 23:55:31.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51558/
+- 23:55:33.859 DEBUG: OnContextCreated()
+- 23:55:33.234 INFO: POST 200 /adminFormvalidation.php
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(87)] Not firing AX event because of no delegate
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+- 23:55:37.125 DEBUG: OnContextCreated()
+- 23:55:37.500 INFO: GET 200 /css sources/atgs_sec1.css
+- 23:55:37.500 INFO: GET 200 /images sources/home.png
+- 23:55:37.500 INFO: GET 200 /adminpanel.php
+- 23:55:37.141 DEBUG: OnContextCreated()
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(87)] Not firing AX event because of no delegate
+[0414/235537:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+- 23:55:37.531 INFO: GET 200 /images sources/crm.png
+- 23:55:37.531 INFO: GET 200 /images sources/alloc.png
+- 23:55:37.531 INFO: GET 200 /images sources/addacc.png
+- 23:55:37.531 INFO: GET 200 /images sources/logout.png
+- 23:55:37.546 INFO: GET 200 /images sources/ttlogo.png
+- 23:55:37.546 INFO: GET 200 /images sources/manage-account.jpg
+- 23:55:37.546 INFO: GET 200 /images sources/Generate.png
+- 23:55:37.546 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51558/adminpanel.php
+- 23:55:37.531 INFO: GET 200 /images sources/teacher.png
+- 23:55:37.531 INFO: GET 200 /images sources/addsub.png
+- 23:55:50.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51558/adminpanel.php
+- 23:55:51.328 DEBUG: OnContextCreated()
+- 23:55:51.703 INFO: GET 200 /Registration admin.php
+- 23:55:51.344 DEBUG: OnContextCreated()
+- 23:55:51.718 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51558/Registration%20admin.php
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(87)] Not firing AX event because of no delegate
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0414/235551:WARNING:browser_accessibility_manager_win.cc(178)] Not firing AX event because of no root_delegate or hwnd
+[0415/000328:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000333:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000338:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000343:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000348:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000353:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000358:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000403:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000408:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000413:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000418:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000423:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000428:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000433:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000438:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000443:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000448:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000454:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000459:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000504:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000509:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000514:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000519:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000524:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000529:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000534:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000539:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000544:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000549:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000554:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000559:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000604:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000609:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000614:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000619:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000624:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000629:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000634:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000639:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000644:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000649:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000654:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000659:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000704:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000709:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000714:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000719:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000724:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000729:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000734:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000739:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000744:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000749:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000754:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000759:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000804:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000809:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000814:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000820:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000825:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000830:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000835:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000840:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000845:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000850:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000855:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000900:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000905:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000910:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000915:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000920:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000925:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000930:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000935:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000940:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000945:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000950:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/000955:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001000:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001005:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001010:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001015:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001020:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001025:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001030:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001035:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001040:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001045:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001050:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001055:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001100:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001105:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001110:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001115:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001120:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001125:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001130:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001135:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001140:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001145:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001150:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001156:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001201:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001206:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001211:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001216:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001221:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001226:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001231:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001236:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001241:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001246:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001251:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001256:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001301:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001306:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001311:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001316:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001321:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001326:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001331:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001336:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001341:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001346:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001351:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001356:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001401:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001406:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001411:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001416:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001421:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001426:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001431:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001436:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001441:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001446:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001451:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001456:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001501:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001506:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001511:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001516:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001521:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001526:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001531:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001536:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001542:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001547:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001552:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001557:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001602:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001607:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001612:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001617:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001622:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001627:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001632:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001637:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+[0415/001642:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+- 00:47:33.656 DEBUG: WM_DESTROY
+- 00:47:33.656 DEBUG: RemoveBrowserWindow(): hwnd = 328840
+- 00:47:33.656 INFO: Stopping Mongoose web server
+- 00:47:33.656 DEBUG: Mongoose webserver stopped immediately
+- 00:47:33.671 DEBUG: OnBeforeClose() hwnd=590970
+- 00:47:33.671 DEBUG: RemoveBrowserWindow(): hwnd = 590970
+- 00:47:33.687 DEBUG: GetBrowserWindow(): not found, hwnd = 590970
+- 00:47:33.687 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:47:33.687 DEBUG: Calling CefQuitMessageLoop()
+- 00:47:33.328 DEBUG: OnBrowserDestroyed()
+- 00:47:33.718 INFO: Ended application
+- 00:47:33.718 INFO: --------------------------------------------------------
+- 15:30:25.110 INFO: --------------------------------------------------------
+- 15:30:25.125 INFO: Started application
+- 15:30:25.125 INFO: Logging to: F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log
+- 15:30:25.125 INFO: Log level = DEBUG4
+- 15:30:25.125 INFO: Starting Mongoose 3.9c web server
+- 15:30:25.125 INFO: WWW directory: F:\PRoject\ATGS\ATGSZIP(project)\ATGS\www
+- 15:30:25.125 INFO: Index files: index.html,index.php
+- 15:30:25.125 INFO: CGI interpreter: F:\PRoject\ATGS\ATGSZIP(project)\ATGS\php\php-cgi.exe
+- 15:30:25.125 INFO: CGI pattern: **.php$
+- 15:30:25.125 INFO: Hide files patterns: 
+- 15:30:25.125 INFO: CGI environment variables set: TMP=C:\Users\Yesh\AppData\Local\Temp\,TEMP=C:\Users\Yesh\AppData\Local\Temp\,TMPDIR=C:\Users\Yesh\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 15:30:25.141 INFO: Web server url: http://127.0.0.1:57673/
+- 15:30:25.141 INFO: remote_debugging_port = 59997
+- 15:30:25.141 DEBUG: Command line string for the browser process: "F:\PRoject\ATGS\ATGSZIP(project)\ATGS\ATGS.exe" --no-sandbox --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" --remote-debugging-port=59997
+- 15:30:26.000 DEBUG: Command line string for the gpu-process process: "F:\PRoject\ATGS\ATGSZIP(project)\ATGS\ATGS.exe" --type=gpu-process --channel="13124.0.1644539743\708300815" --no-sandbox --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8587 --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" /prefetch:822062411
+- 15:30:26.422 DEBUG: App::OnContextInitialized()
+- 15:30:26.422 DEBUG: Window max width/height = 1286/720
+- 15:30:26.438 DEBUG: GetBrowserWindow(): not found, hwnd = 132538
+- 15:30:26.438 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:30:26.438 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:30:26.438 DEBUG: StoreBrowserWindow(): hwnd = 132538
+- 15:30:26.641 DEBUG: ClientHandler::OnAfterCreated()
+- 15:30:26.641 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:30:26.703 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:30:26.000 DEBUG: Command line string for the renderer process: "F:\PRoject\ATGS\ATGSZIP(project)\ATGS\ATGS.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="13124.1.982781933\805373830" /prefetch:673131151
+- 15:30:27.719 DEBUG: OnBrowserCreated()
+- 15:30:29.344 INFO: GET 200 /
+- 15:30:29.453 INFO: GET 200 /css sources/main.css
+- 15:30:29.563 INFO: GET 200 /images sources/ATGS LOGO 3.png
+- 15:30:29.641 INFO: GET 200 /images sources/theme 2.jpg
+- 15:30:29.031 DEBUG: OnContextCreated()
+- 15:30:29.094 DEBUG: OnContextCreated()
+- 15:30:29.891 INFO: GET 404 /css sources/images sources/bg1.png
+- 15:30:29.891 INFO: GET 404 /css sources/images sources/bg1.jpg
+- 15:30:29.032 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57673/
+- 15:30:44.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57673/
+- 15:30:46.828 DEBUG: OnContextCreated()
+- 15:30:46.563 INFO: POST 200 /adminFormvalidation.php
+- 15:30:48.797 DEBUG: OnContextCreated()
+- 15:30:48.516 INFO: GET 200 /css sources/atgs_sec1.css
+- 15:30:48.516 INFO: GET 200 /adminpanel.php
+- 15:30:48.797 DEBUG: OnContextCreated()
+- 15:30:48.563 INFO: GET 200 /images sources/alloc.png
+- 15:30:48.578 INFO: GET 200 /images sources/teacher.png
+- 15:30:48.610 INFO: GET 200 /images sources/addacc.png
+- 15:30:48.610 INFO: GET 200 /images sources/crm.png
+- 15:30:48.657 INFO: GET 200 /images sources/logout.png
+- 15:30:48.657 INFO: GET 200 /images sources/manage-account.jpg
+- 15:30:48.657 INFO: GET 200 /images sources/Generate.png
+- 15:30:48.657 INFO: GET 200 /images sources/home.png
+- 15:30:48.703 INFO: GET 200 /images sources/ttlogo.png
+- 15:30:48.719 INFO: GET 200 /images sources/addsub.png
+- 15:30:48.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57673/adminpanel.php
+- 15:30:53.485 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57673/adminpanel.php
+- 15:30:53.875 DEBUG: OnContextCreated()
+- 15:30:53.906 DEBUG: OnContextCreated()
+- 15:30:53.610 INFO: GET 200 /assets/css/font-awesome.min.css
+- 15:30:53.610 INFO: GET 200 /assets/css/bootstrap.css
+- 15:30:53.610 INFO: GET 200 /assets/css/flexslider.css
+- 15:30:53.625 INFO: GET 200 /assets/css/style.css
+- 15:30:54.485 INFO: GET 404 /css sources/images sources/bg1.png
+- 15:30:54.500 INFO: GET 404 /css sources/images sources/bg1.jpg
+- 15:30:57.766 INFO: GET 200 /addteachers.php
+- 15:30:57.782 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57673/addteachers.php
+- 15:32:07.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57673/addteachers.php
+- 15:32:23.313 DEBUG: OnContextCreated()
+- 15:32:23.032 INFO: POST 200 /addteacherFormValidation.php
+- 15:32:26.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57673/addteacherFormValidation.php
+- 15:41:32.891 DEBUG: F5 pressed, reloading page
+- 15:41:49.594 DEBUG: WM_DESTROY
+- 15:41:49.610 DEBUG: RemoveBrowserWindow(): hwnd = 132538
+- 15:41:49.610 INFO: Stopping Mongoose web server
+- 15:41:49.610 DEBUG: Mongoose webserver stopped immediately
+- 15:41:49.625 DEBUG: OnBeforeClose() hwnd=132552
+- 15:41:49.625 DEBUG: RemoveBrowserWindow(): hwnd = 132552
+- 15:41:49.625 DEBUG: GetBrowserWindow(): not found, hwnd = 132552
+- 15:41:49.625 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:41:49.625 DEBUG: Calling CefQuitMessageLoop()
+- 15:41:49.984 DEBUG: OnBrowserDestroyed()
+- 15:41:49.782 INFO: Ended application
+- 15:41:49.782 INFO: --------------------------------------------------------
+- 15:41:53.109 INFO: --------------------------------------------------------
+- 15:41:53.109 INFO: Started application
+- 15:41:53.109 INFO: Logging to: F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log
+- 15:41:53.109 INFO: Log level = DEBUG4
+- 15:41:53.109 INFO: Starting Mongoose 3.9c web server
+- 15:41:53.125 INFO: WWW directory: F:\PRoject\ATGS\ATGSZIP(project)\ATGS\www
+- 15:41:53.125 INFO: Index files: index.html,index.php
+- 15:41:53.125 INFO: CGI interpreter: F:\PRoject\ATGS\ATGSZIP(project)\ATGS\php\php-cgi.exe
+- 15:41:53.125 INFO: CGI pattern: **.php$
+- 15:41:53.125 INFO: Hide files patterns: 
+- 15:41:53.125 INFO: CGI environment variables set: TMP=C:\Users\Yesh\AppData\Local\Temp\,TEMP=C:\Users\Yesh\AppData\Local\Temp\,TMPDIR=C:\Users\Yesh\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 15:41:53.141 INFO: Web server url: http://127.0.0.1:58124/
+- 15:41:53.141 INFO: remote_debugging_port = 51324
+- 15:41:53.141 DEBUG: Command line string for the browser process: "F:\PRoject\ATGS\ATGSZIP(project)\ATGS\ATGS.exe" --no-sandbox --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" --remote-debugging-port=51324
+- 15:41:53.219 DEBUG: App::OnContextInitialized()
+- 15:41:53.219 DEBUG: Window max width/height = 1286/720
+- 15:41:53.219 DEBUG: GetBrowserWindow(): not found, hwnd = 198086
+- 15:41:53.219 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:41:53.219 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:41:53.219 DEBUG: StoreBrowserWindow(): hwnd = 198086
+- 15:41:53.016 DEBUG: Command line string for the gpu-process process: "F:\PRoject\ATGS\ATGSZIP(project)\ATGS\ATGS.exe" --type=gpu-process --channel="12976.0.1724328086\397520314" --no-sandbox --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8587 --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" /prefetch:822062411
+- 15:41:53.281 DEBUG: ClientHandler::OnAfterCreated()
+- 15:41:53.297 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:41:53.313 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:41:53.000 DEBUG: Command line string for the renderer process: "F:\PRoject\ATGS\ATGSZIP(project)\ATGS\ATGS.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="F:\PRoject\ATGS\ATGSZIP(project)\ATGS\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="12976.1.2090747632\479827628" /prefetch:673131151
+- 15:41:53.047 DEBUG: OnBrowserCreated()
+- 15:41:54.516 INFO: GET 200 /css sources/main.css
+- 15:41:54.516 INFO: GET 200 /images sources/ATGS LOGO 3.png
+- 15:41:54.531 INFO: GET 200 /images sources/theme 2.jpg
+- 15:41:54.172 DEBUG: OnContextCreated()
+- 15:41:54.188 DEBUG: OnContextCreated()
+- 15:41:54.547 INFO: GET 200 /
+- 15:41:54.563 INFO: GET 404 /css sources/images sources/bg1.png
+- 15:41:54.578 INFO: GET 404 /css sources/images sources/bg1.jpg
+- 15:41:54.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58124/
+- 15:42:11.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58124/
+- 15:42:13.422 DEBUG: OnContextCreated()
+- 15:42:13.797 INFO: POST 200 /adminFormvalidation.php
+- 15:42:15.250 DEBUG: OnContextCreated()
+- 15:42:15.609 INFO: GET 200 /css sources/atgs_sec1.css
+- 15:42:15.609 INFO: GET 200 /images sources/home.png
+- 15:42:15.609 INFO: GET 200 /adminpanel.php
+- 15:42:15.266 DEBUG: OnContextCreated()
+- 15:42:15.625 INFO: GET 200 /images sources/teacher.png
+- 15:42:15.625 INFO: GET 200 /images sources/crm.png
+- 15:42:15.625 INFO: GET 200 /images sources/addsub.png
+- 15:42:15.625 INFO: GET 200 /images sources/alloc.png
+- 15:42:15.625 INFO: GET 200 /images sources/addacc.png
+- 15:42:15.625 INFO: GET 200 /images sources/logout.png
+- 15:42:15.625 INFO: GET 200 /images sources/manage-account.jpg
+- 15:42:15.672 INFO: GET 200 /images sources/ttlogo.png
+- 15:42:15.672 INFO: GET 200 /images sources/Generate.png
+- 15:42:15.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58124/adminpanel.php
+- 15:42:18.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58124/adminpanel.php
+- 15:42:18.282 DEBUG: OnContextCreated()
+- 15:42:18.641 INFO: GET 200 /assets/css/bootstrap.css
+- 15:42:18.641 INFO: GET 200 /assets/css/font-awesome.min.css
+- 15:42:18.641 INFO: GET 200 /assets/css/flexslider.css
+- 15:42:18.641 INFO: GET 200 /assets/css/style.css
+- 15:42:18.297 DEBUG: OnContextCreated()
+- 15:42:18.719 INFO: GET 404 /css sources/images sources/bg1.png
+- 15:42:18.719 INFO: GET 404 /css sources/images sources/bg1.jpg
+- 15:42:22.781 INFO: GET 200 /addteachers.php
+- 15:42:22.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58124/addteachers.php
+- 15:43:30.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58124/addteachers.php
+- 15:43:46.063 DEBUG: OnContextCreated()
+- 15:43:46.438 INFO: POST 200 /addteacherFormValidation.php
+- 15:43:50.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58124/addteacherFormValidation.php
+- 15:44:33.609 DEBUG: WM_DESTROY
+- 15:44:33.625 DEBUG: RemoveBrowserWindow(): hwnd = 198086
+- 15:44:33.625 INFO: Stopping Mongoose web server
+- 15:44:33.625 DEBUG: Mongoose webserver stopped immediately
+- 15:44:33.625 DEBUG: OnBeforeClose() hwnd=198010
+- 15:44:33.625 DEBUG: RemoveBrowserWindow(): hwnd = 198010
+- 15:44:33.641 DEBUG: GetBrowserWindow(): not found, hwnd = 198010
+- 15:44:33.641 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:44:33.641 DEBUG: Calling CefQuitMessageLoop()
+- 15:44:33.329 DEBUG: OnBrowserDestroyed()
+- 15:44:33.766 INFO: Ended application
+- 15:44:33.766 INFO: --------------------------------------------------------
