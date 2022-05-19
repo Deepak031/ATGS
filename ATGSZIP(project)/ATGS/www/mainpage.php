@@ -75,6 +75,8 @@
     <form data-scroll-reveal="enter from the bottom after 0.2s" action="studentvalidation.php" method="post">
         <select id="select_semester" name="select_semester" class="list-group-item">
             <option selected disabled>Select Semester</option>
+            <option value="1"> B.Tech I Year ( Semester I )</option>
+            <option value="2"> B.Tech I Year ( Semester II )</option>
             <option value="3"> B.Tech II Year ( Semester III )</option>
             <option value="4"> B.Tech II Year ( Semester IV )</option>
             <option value="5"> B.Tech III Year ( Semester V )</option>

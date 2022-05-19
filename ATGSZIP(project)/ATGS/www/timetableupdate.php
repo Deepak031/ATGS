@@ -154,7 +154,7 @@
 <!--HOME SECTION END-->
 
 <!--<div id="footer">--><div id="foot">
-    &copy 2019 Govt. Polytechnic College Balaghat | All Rights Reserved | Design by : The Java Group
+    &copy 2022 Jabalpur Engineering College Jabalpur | All Rights Reserved 
 					</div>
 <!-- FOOTER SECTION END-->
 

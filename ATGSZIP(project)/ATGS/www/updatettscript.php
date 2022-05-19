@@ -13,6 +13,7 @@ $conn=@mysql_connect("localhost","root","");
       mysql_select_db('atgs',$conn);
 
 $query1 ="UPDATE $sem SET period1='$t1',period2='$t2',period3='$t3',period4='$t4',period5='$t5',period6='$t6' WHERE day='$day'";
+// echo '<script type="text/javascript">alert("Record Updated");window.location=timetableupdate.php\;</script>';
 mysql_query($query1,$conn);
-echo '<script type="text/javascript">alert("Record Updated");window.location=timetableupdate.php\';</script>';
+echo '<script type="text/javascript">alert("Record Updated");window.location="timetableupdate.php";</script>';
 ?>

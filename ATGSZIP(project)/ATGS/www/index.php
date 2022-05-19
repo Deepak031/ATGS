@@ -7,7 +7,7 @@
 				position:absolute;
 				top:-40px;
 				width:400px;
-				right:50px;
+				/* right:50px; */
 				padding:10px;
 			}
 			.body-container #frm2 form
@@ -85,18 +85,9 @@
 			<marquee>ATGS -There is only one Key to Success, Be on Time - Everytime</marquee>
 		</div>
 		<div class="body-container">
-			<div class="title">Welcome</div>
-			<img src="images sources/theme 2.jpg" height="370px" width="500px" alt="no logo">
-			<div id="para" style="width:390;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>This is our Project which is basically a tool for generation
-				of a format of a random arragement of a timetable by satisfying all the conditions which 
-				necessery to create a time table for that institute. This tool helps user to get a stretegy 
-				to help the user to create an effective time table for all the classes by finding the shortest path.<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In our project we used multiple algorithms i.e; Ant coloney optimization
-				(For searching Shortest Path), Genetic Algorithm (for creating a random arragement ).<br><br>
-				<strong><u>NOTE</u> - </strong> This project Works only on Local server so no other user can access this software by other system.<br>
-				<br><strong>Thank You.</strong></b>
-			</div> 
-			<span id="frm2" style="position:absolute; left:900px; border:4px blue;">
+			<!-- <div class="title">Welcome</div> -->
+			<img src="images sources/theme 2.jpg" height="400px" width="600px" alt="no logo">
+			<span id="frm2">
 				<br><hr size="5"><h1><center>Login admin account</center></h1>
 				<form name="loginform" id="logfrm" action="adminFormvalidation.php" method="post">
 					Username: &nbsp;&nbsp;&nbsp;&nbsp;

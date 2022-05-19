@@ -47,7 +47,7 @@
 											  if ($records>0)
 												{
 													$_SESSION['Username']=$row['username'];
-													header("Location:forget2.php");
+													header('Location:forget2.php');
 												}
 												else
 													echo "<script>alert('No User Found.');</script>";
