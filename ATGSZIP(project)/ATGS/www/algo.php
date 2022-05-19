@@ -14,7 +14,7 @@ class Subject
     public $subjectteacher3; //faculty number of teacher3
 }
 
-/**Class to store teachers details**/
+/**Class to store teachers details jvgjvjs**/
 class Teacher
 {
     public $id; //faculty number
