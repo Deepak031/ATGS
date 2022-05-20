@@ -245,7 +245,7 @@ if (isset($_GET['success'])) {
             <caption><strong><br><br>
                     <?php
                     if (isset($_POST['select_semester'])) {
-                        echo "<div style='background-color:#0096BE;width:65%;'><h1>COMPUTER SCIENCE & ENGG. DEPARTMENT <br>SEMESTER " . $_POST['select_semester'] . " </h1></div>";
+                        echo "<div style='background-color:#0096BE;width:65%;'><h1>Information Technology Department <br>Semester " . $_POST['select_semester'] . " </h1></div>";
                         $year = (int)($_POST['select_semester'] / 2) + $_POST['select_semester'] % 2;
                         $r = mysqli_fetch_assoc(mysqli_query(mysqli_connect("localhost", "root", "", "atgs"), "SELECT * from classrooms
                         WHERE status = '$year'"));
@@ -366,7 +366,7 @@ $rp = mysqli_query(mysqli_connect("localhost", "root", "", "atgs"),
                     }
 
                     echo '</table>';
-                    $sign = "GENERATED VIA AUTOMATED TIMETABLE GENERATED SYSTEM, COMPUTER ENGINEERING DEPARTMENT, GPCBGT.";
+                    $sign = "GENERATED VIA AUTOMATED TIMETABLE GENERATED SYSTEM.";
                     echo "<div style='margin-left: 10px' align='center'>" . "<br>" . $str . "<br></div>" .
                         "<div style='margin-left: 10px' align='center'>" . "<strong>" . $sign . "<br></strong></div>";
                 }
@@ -389,7 +389,7 @@ $rp = mysqli_query(mysqli_connect("localhost", "root", "", "atgs"),
 <!--HOME SECTION END-->
 
 <!--<div id="footer">-->
-    &copy 2019 Govt. Polytechnic College Balaghat | All Rights Reserved | Design by : The Java Group
+    <!-- &copy 2019 Govt. Polytechnic College Balaghat | All Rights Reserved | Design by : The Java Group -->
 <!-- FOOTER SECTION END-->
 
 <!--  Jquery Core Script -->
